@@ -1,3 +1,9 @@
+-- pre listing 1.2 - Creating the schema
+
+CREATE SCHEMA ch01
+
+-- Begin listing 1.2
+
 CREATE TABLE ch01.lu_franchises (
     id char(3) PRIMARY KEY,
     franchises varchar(30)
