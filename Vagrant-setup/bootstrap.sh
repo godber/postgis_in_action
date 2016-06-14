@@ -65,7 +65,7 @@ apt-get update
 apt-get -y upgrade
 
 apt-get -y install "postgresql-$PG_VERSION" "postgresql-contrib-$PG_VERSION"
-apt-get -y install "postgresql-${PG_VERSION}-postgis-${POSTGIS_VERSION}" "postgresql-${PG_VERSION}-postgis-scripts"
+apt-get -y install "postgresql-${PG_VERSION}-postgis-${POSTGIS_VERSION}" "postgresql-${PG_VERSION}-postgis-scripts" postgis
 
 PG_CONF="/etc/postgresql/$PG_VERSION/main/postgresql.conf"
 PG_HBA="/etc/postgresql/$PG_VERSION/main/pg_hba.conf"
