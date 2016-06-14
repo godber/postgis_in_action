@@ -1,0 +1,2 @@
+wget http://www.postgis.us/downloads/postgis_in_action_2e_ch01_code_data.zip
+unzip postgis_in_action_2e_ch01_code_data.zip
