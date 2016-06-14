@@ -1,5 +1,8 @@
 # PostGIS in Action Notes
 
+This repository contains my notes from working through the
+[PostGIS in Action](http://www.postgis.us/).
+
 [Vagrant](https://www.vagrantup.com/) is used to bootstrap a PostgreSQL with
 PostGIS environment to simplify getting started.  Steps to getting started are:
 
