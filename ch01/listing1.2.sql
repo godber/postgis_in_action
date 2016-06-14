@@ -6,10 +6,10 @@ CREATE SCHEMA ch01
 
 CREATE TABLE ch01.lu_franchises (
     id char(3) PRIMARY KEY,
-    franchises varchar(30)
+    franchise varchar(30)
 );
 
-INSERT INTO ch01.lu_franchises(id, franchises)
+INSERT INTO ch01.lu_franchises(id, franchise)
 VALUES
     ('BKG', 'Burger King'),
     ('CJR', 'Carl''s Jr'),
